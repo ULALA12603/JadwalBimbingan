@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="../jadwal bimbingan/daftar mahasiswa.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>DAFTAR BIMBINGAN</title>
+        <style>
+              
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 70px;font-weight: bold;">BIMBINGAN</h1>
+            <h1>UHWPS</h1>
+        </header>
+    <form>
+        <button class="back">
+            <a href="../jadwal bimbingan/pengajuan bimbingan.html">Back</a>
+           </button>
+<head>
+    <title>Form Pendaftaran Bimbingan</title>
+</head>
+<body>
+    <h1>Form Pendaftaran Bimbingan</h1>
+    <form action="../jadwal bimbingan/pengajuan bimbingan.html" method="POST">
+        <!-- Informasi Pribadi -->
+        <h2>Informasi Pribadi</h2>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+        <br>
+        <br>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required>
+
+        <!-- Jurusan -->
+        <h2>Jurusan</h2>
+        <select id="jurusan" name="jurusan" required>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Manajemen">Sistem Informasi</option>
+            <option value="Akuntansi">Desain Komunikasi & Visual</option>
+        </select>
+        <br>
+
+        <!--telpon-->
+        <label for="telp">Telphone:</label>
+        <input type="text" id="telp" name="telp" required>
+        <br>
+          <!--Dosen-->
+          <h2> Dosen </h2>
+       <select id ="Dosen" id="Dosen" required>
+        <option value="Yudha Herlambang">Yudha Herlambang</option>
+        <option value="Layla">Layla</option>
+        <option value="Nurul">Nurul</option>
+               </select>
+       <br>
+         <!--jadwal-->
+         <h2>JADWAL</h2>
+         <select name="jadwal" id="jadwal" required>
+            <option value="pagi">20-10-2023(09.00-11.00)</option>
+            <option value="Pagi">23-10-2023(06.15-08.15)</option>
+         </select>
+         <br>
+         <br>
+
+
+        <!-- Tombol Submit -->
+        <button type=" required"><a href="../jadwal bimbingan/login.html">Daftar</a></button>
+        
+
+    </form>
+</body>
+</html>

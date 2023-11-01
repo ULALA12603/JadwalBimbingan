@@ -1,0 +1,60 @@
+body {
+    background-image: url("istockphoto-825778252-612x612.jpg");
+    background-size: cover;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../jadwal\ bimbingan/week-background-day-wallpaper-mo-20210814015025.jpg);  
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: blueviolet;   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 650px;
+    padding: 100px 150px;
+    border: 5px solid #ccc;
+    border-radius:  15px;
+    box-shadow: 0 0 5px #ccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+
+}
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 110%;
+    margin: 20px auto;
+}
+th {
+    border: 2px solid ivory;
+    text-align: left;
+    padding:  10px;
+    color: burlywood;
+}
+td {
+    border: 2px solid rgb(252, 252, 252);
+    text-align: left;
+    padding: 10px;  
+    color: black;
+}
+tr:hover{
+    background-color: #ddd;
+}
+
+button {
+    font-size: 34px ;
+    margin: auto;
+    color :darkblue;
+}
+.back{
+    font-size: 10px;
+    margin: auto;
+    position :absolute;
+}

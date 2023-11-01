@@ -1,0 +1,60 @@
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../USER\ JAMBI/maxresdefault.jpg);  
+    background-color: rgb(69, 81, 247);
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(244, 244, 244, 0.726);   
+}
+body {
+    background-image: url("ilustrasi-lautpantai_169.jpeg");
+    background-size: cover;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 650px;
+    padding: 100px 150px;
+    border: 5px solid #ccc;
+    border-radius:  15px;
+    box-shadow: 0 0 5px #ccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(63, 59, 134);
+
+}
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 110%;
+    margin: 20px auto;
+}
+th {
+    border: 2px solid ivory;
+    text-align: left;
+    padding:  10px;
+    color: burlywood;
+}
+td {
+    border: 2px solid rgb(252, 252, 252);
+    text-align: left;
+    padding: 10px;  
+    color: black;
+}
+tr:hover{
+    background-color: #ddd;
+}
+
+button {
+    font-size: 34px ;
+    margin: auto;
+    color :darkblue;
+}
+.back{
+    font-size: 10px;
+    margin: auto;
+    position :absolute;
+}

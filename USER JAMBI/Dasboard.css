@@ -1,0 +1,45 @@
+footer {
+    text-align: center;
+    margin-top: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url("ilustrasi-lautpantai_169.jpeg");
+    background-size: cover;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../USER\ JAMBI/maxresdefault.jpg);  
+    background-color: aqua;
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(244, 244, 244, 0.726);   
+}
+nav{
+    float: left;
+    width: 22%;
+    height: 270px;
+    padding: 5px;
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+}
+nav ul {
+    float: left;
+    content: "";
+    display:  table;
+    clear: both;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding:  0px;
+    width:  200px;
+    background-color :gray;
+}

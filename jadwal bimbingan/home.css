@@ -1,0 +1,66 @@
+footer {
+    text-align: center;
+    margin-top: 400px;
+    padding: 10px;
+    background-color: black;
+}
+
+body {
+    background-image: url("istockphoto-825778252-612x612.jpg");
+    background-size: cover;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../jadwal\ bimbingan/week-background-day-wallpaper-mo-20210814015025.jpg);  
+    background-color: aqua;
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: blueviolet;   
+}
+nav{
+    float: left;
+    width: 22%;
+    height: 270px;
+    padding: 5px;
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+}
+a{
+    background-color: white;
+    color: brown;
+    width: 50%;
+    height: 15px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+}
+.lap {
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    padding: auto;
+    width: auto ;
+}
+nav ul {
+    float: left;
+    content: "";
+    display:  table;
+    clear: both;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding:  0px;
+    width:  200px;
+    background-color :gray;
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding:  8px 16px;
+    text-decoration: none;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="styles.css">
+     
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="feedback.html">
+    <title>Form Pemilihan Mata Pelajaran</title>
+</head>
+<body>
+    <div class="container">
+        <header>FORM</header>
+
+        <form action="https://sheetdb.io/api/v1/3u1f6jgj78vby" method="post" id="sheetdb-form">
+            <div class="form">
+                <div class="details">
+                    <span class="title">Pemilihan Mata Pelajaran</span>
+
+                    <div class="fieldsz">
+                        <div class="input-fieldz">
+                            <label>NIS</label>
+                            <input type="text" name="NIS" placeholder="Masukan NIS" required>
+                        </div>
+
+                        <div class="input-fieldz">
+                            <label>Nama</label>
+                            <input type="text" name="NAMA" placeholder="Masukan Nama" required>
+                        </div>
+
+                        <div class="input-fieldz">
+                            <label>Jenis Kelamin</label>
+                            <select required name="JenisKelamin">
+                                <option disabled selected>Pilih-</option>
+                                <option>Laki - Laki</option>
+                                <option>Perempuan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Matapelajaran Pilihan</label>
+                            <select required id="select1" name="Mapel1" onchange="getSelectValue(this.value);">
+                                <option disabled selected>Pilih-</option>
+                                <option value="Informatika">INFORMATIKA</option>
+                                <option value="Fisika">FISIKA</option>
+                                <option value="Kimia">KIMIA</option>
+                                <option value="Biologi">BIOLOGI</option>
+                                <option value="Geografi">GEOGRAFI</option>
+                                <option value="Ekonomi">EKONOMI</option>
+                                <option value="Sosiologi">SOSIOLOGI</option>
+                                <option value="Bahasa Indonesia">BAHASA INDONESIA</option>
+                                <option value="Bahasa Inggris">BAHASA INGGRIS</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nilai</label>
+                            <input type="number" name="Nilai1" placeholder="Masukan Nilai" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Matapelajaran Pilihan</label>
+                            <select required id="select" name="Mapel2" onchange="getSelectValue(this.value);">
+                                <option disabled selected>Pilih-</option>
+                                <option value="Informatika">INFORMATIKA</option>
+                                <option value="Fisika">FISIKA</option>
+                                <option value="Kimia">KIMIA</option>
+                                <option value="Biologi">BIOLOGI</option>
+                                <option value="Geografi">GEOGRAFI</option>
+                                <option value="Ekonomi">EKONOMI</option>
+                                <option value="Sosiologi">SOSIOLOGI</option>
+                                <option value="Bahasa Indonesia">BAHASA INDONESIA</option>
+                                <option value="Bahasa Inggris">BAHASA INGGRIS</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nilai</label>
+                            <input type="number" name="Nilai2" placeholder="Masukan Nilai" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Matapelajaran Pilihan</label>
+                            <select required id="select" name="Mapel3" onchange="getSelectValue(this.value);">
+                                <option disabled selected>Pilih-</option>
+                                <option value="Informatika">INFORMATIKA</option>
+                                <option value="Fisika">FISIKA</option>
+                                <option value="Kimia">KIMIA</option>
+                                <option value="Biologi">BIOLOGI</option>
+                                <option value="Geografi">GEOGRAFI</option>
+                                <option value="Ekonomi">EKONOMI</option>
+                                <option value="Sosiologi">SOSIOLOGI</option>
+                                <option value="Bahasa Indonesia">BAHASA INDONESIA</option>
+                                <option value="Bahasa Inggris">BAHASA INGGRIS</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nilai</label>
+                            <input type="number" name="Nilai3" placeholder="Masukan Nilai" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Matapelajaran Pilihan</label>
+                            <select required id="select" name="Mapel4" onchange="getSelectValue(this.value);">
+                                <option disabled selected>Pilih-</option>
+                                <option value="Informatika">INFORMATIKA</option>
+                                <option value="Fisika">FISIKA</option>
+                                <option value="Kimia">KIMIA</option>
+                                <option value="Biologi">BIOLOGI</option>
+                                <option value="Geografi">GEOGRAFI</option>
+                                <option value="Ekonomi">EKONOMI</option>
+                                <option value="Sosiologi">SOSIOLOGI</option>
+                                <option value="Bahasa Indonesia">BAHASA INDONESIA</option>
+                                <option value="Bahasa Inggris">BAHASA INGGRIS</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nilai</label>
+                            <input type="number" name="Nilai4" placeholder="Masukan Nilai" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="reset" type="reset" id="resetBtn">
+                    <span class="btnText">Reset</span>
+                    
+                    
+                    
+                </button>
+                <button class="submit" type="submit" id="submitBtn">
+                    <span class="btnText">Submit</span>
+                    <i class="uil uil-navigator"></i>
+                    
+                </button>
+            </div>
+
+        </form>
+        
+    </div>
+<script src="jquery-3.6.3.min.js">
+    </script>
+    <script type="text/javascript">
+    function getSelectValue(select){
+        if(select!=''){
+            $("#select option[value ='"+select+"']").hide();
+            $("#select option[value!='"+select+"']").show();
+            $("#select option[value ='"+select+"']").disabled;
+            $("#select option[value!='"+select+"']").enabled;
+        }
+    }
+
+
+</script>
+<script>
+    var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+          fetch(form.action, {
+              method : "POST",
+              body: new FormData(document.getElementById("sheetdb-form")),
+          }).then(
+              response => response.json()
+          ).then((html) => {
+            // you can put any JS code here
+            window.open('page2.html', '_blank');
+
+          });
+        });
+</script>
+    
+    
+</body>
+</html>

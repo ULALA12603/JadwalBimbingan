@@ -1,0 +1,45 @@
+footer {
+    text-align: center;
+    margin-top: 400px;
+    padding: 10px;
+    background-color: rgb(14, 6, 6);
+}
+
+body {
+    background-image: url("prado-3603449_960_720.jpg");
+    background-size: cover;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(244, 244, 244, 0.726);   
+    background: linear-gradient(rgb(84, 3, 3), rgba(250, 0, 0, 0.5)),
+}
+nav{
+    float: left;
+    width: 22%;
+    height: 270px;
+    padding: 5px;
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+}
+nav ul {
+    float: left;
+    content: "";
+    display:  table;
+    clear: both;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding:  0px;
+    width:  1250px;
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+}
